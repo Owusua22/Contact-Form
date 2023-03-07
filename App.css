@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@500&family=Lato:wght@400;700&family=Merriweather&family=Mukta:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f3f3;
+}
+.contact{
+  font-weight: 900;
+  margin-left: 500px;
+  font-size: 3rem;
+  max-width: 900px;
+  position: absolute;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-top: -140px;
+  background-color: transparent;
+  text-align: center;
+ 
+  
+}
+.container{
+  text-align: center;
+  
+}
+
+  .wave{
+      transform: scaleY(-1);
+    height: 190px
+  }
+
+.input{
+  display: flex;
+}
+input{
+  height: 60px;
+  width: 550px;
+  border-radius: 60px;
+  border: 2px solid rgb(192, 189, 189);
+  cursor: pointer;
+  font-size: 18px;
+  transition: border .4s cubic-bezier(.25,.8,.25,1);
+  padding-left: 12px;
+  margin-bottom:  30px;
+
+}
+  .icon{
+    margin-left: -50px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: transparent;
+  }
+  input:hover{
+    border:2px solid #f79902;
+    
+  }
+  ::placeholder {
+
+  text-align: left;
+  padding-left: 20px;
+}
+Label{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+
+.button{
+  width: 230px;
+  height: 50px;
+  border-radius: 40px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: #673ab7e0;
+  color: white;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #f79902;
+  color: whitesmoke;
+}
+img{
+  align-items: left;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 100px;
+  
+}
